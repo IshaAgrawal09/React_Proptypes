@@ -3,12 +3,12 @@ import PropTypes from "prop-types";
 const Task2Child = ({ str, num, bool, func, obj, symbol }) => {
   return (
     <div>
-      <p>{str}</p>
-      <p>{num}</p>
-      <p>{bool}</p>
+      <p>String: {str}</p>
+      <p>Number: {num}</p>
+      <p>(boolean)Minor : {bool ? "yes" : "No"}</p>
 
-      <p>{obj.name}</p>
-      <p>{symbol}</p>
+      <p>(Object)Name: {obj.name}</p>
+      <p>Symbol: {symbol}</p>
     </div>
   );
 };

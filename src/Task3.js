@@ -23,7 +23,7 @@ const Task3 = () => {
         />
       </div>
       <div>
-       <Task3Child name = {name} score = {isNaN(score)? score : Number(score)}/>
+        <Task3Child name={name} score={isNaN(score) ? score : Number(score)} />
       </div>
     </div>
   );
